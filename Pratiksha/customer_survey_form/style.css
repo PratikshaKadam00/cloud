@@ -1,0 +1,67 @@
+/* Add your CSS styles here */
+/* Styling for the popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.custom-form {
+    background-color: rgba(95, 94, 95, 0.2) ; 
+    padding: 40px 5px 1px 20px;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 400px;
+    margin: 10px 150px  10px 150px;
+    box-shadow: 0 0 40px rgba(8, 140, 241, 0.202);
+    
+  }
+
+  .text-box{
+  border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 6px;
+    width: 60%;
+    box-shadow: 2px 2px 5px rgba(244, 66, 173, 0.2);
+    margin-bottom: 10px;
+  }
+
+  .dob
+  {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 6px;
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(244, 66, 173, 0.2);
+    margin-bottom: 10px;
+
+  }
+
+  .profession
+  {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 6px;
+    width: 40%;
+    box-shadow: 2px 2px 5px rgba(244, 66, 173, 0.2);
+    margin-bottom: 10px;
+
+  }
+
+  .button
+  {
+    background-color: lightslategray;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
